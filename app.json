@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "CovidDashboard",
+    "name": "Covid-19 India Dashboard",
     "slug": "CovidDashboard",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -16,8 +16,16 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+
     "ios": {
+      "bundleIdentifier": "com.arjun.coviddashboard",
+      "buildNumber": "1.1.0",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.arjun.doviddashboard",
+      "versionCode": 2,
+      "enableDangerousExperimentalLeanBuilds": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
